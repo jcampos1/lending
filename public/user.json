@@ -1,0 +1,86 @@
+[
+    {
+        "email": "junior.uc.9192@gmail.com",
+        "password": "1234",
+        "name": "Junior David",
+        "lastName": "Campos Giménez",
+        "doctType": "PA",
+        "docNumber": "118349712",
+        "nacionality": "venezolana",
+        "address": "Calle 71 #86a-45, Edificio Carduus, Torre I, apto 503, Bogotá Colombia",
+        "rol": "SUPER",
+        "createAt": "string"
+    },
+    {
+        "email": "jhonduque@gmail.com",
+        "password": "1234",
+        "name": "Jhon Alexander",
+        "lastName": "Duque",
+        "doctType": "CI",
+        "docNumber": "1152189981",
+        "nacionality": "colombiana",
+        "address": "Calle 71 #86a-45, Edificio Carduus, Torre I, apto 504, Bogotá Colombia",
+        "rol": "CLIENT",
+        "createAt": "string"
+    },
+    {
+        "email": "luissanabriacorp@gmail.com",
+        "password": "1234",
+        "name": "Luis Rafael",
+        "lastName": "Larez Sanabria",
+        "doctType": "PA",
+        "docNumber": "140654657",
+        "nacionality": "venezolana",
+        "address": "Cra 102 #154-30 torre 6 apto 1305 Conjunto Arboleda del Pinar, Bogotá, Colombia",
+        "rol": "CLIENT",
+        "createAt": "string"
+    },
+    {
+        "email": "vasquezgomezricardo@gmail.com",
+        "password": "1234",
+        "name": "Ricardo Jesus",
+        "lastName": "Vásquez Gómez",
+        "doctType": "PA",
+        "docNumber": "130295992",
+        "nacionality": "venezolana",
+        "address": "Cra 102 #154-30 torre 6 apto 1305 Conjunto Arboleda del Pinar, Bogotá, Colombia",
+        "rol": "CLIENT",
+        "createAt": "string"
+    },
+    {
+        "email": "maritza@gmail.com",
+        "password": "1234",
+        "name": "Maritza",
+        "lastName": "Rozo",
+        "doctType": "CI",
+        "docNumber": "1101176502",
+        "nacionality": "colombiana",
+        "address": "Cra 87 #69a-42, Barrio La Florida, Bogotá, Colombia",
+        "rol": "CLIENT",
+        "createAt": "string"
+    },
+    {
+        "email": "zulay@gmail.com",
+        "password": "1234",
+        "name": "Zulay",
+        "lastName": "Vásquez",
+        "doctType": "CI",
+        "docNumber": "3104324886",
+        "nacionality": "venezolana",
+        "address": "Cll 49b cra 1515, Buenos aires, barrio Echevarria, Medellin, Colombia",
+        "rol": "CLIENT",
+        "createAt": "string"
+    },
+    {
+        "email": "yorman@gmail.com",
+        "password": "1234",
+        "name": "Yorman José",
+        "lastName": "Rondón Pérez",
+        "doctType": "PEP",
+        "docNumber": "930604416011994",
+        "nacionality": "venezolana",
+        "address": "Cra 90 #69a-55, Barrio La Florida, Bogotá, Colombia",
+        "rol": "CLIENT",
+        "createAt": "string"
+    }
+]

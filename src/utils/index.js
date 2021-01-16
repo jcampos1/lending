@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {CLIENT_USER, SUPER_USER} from "../constants";
+import {CAPITAL_PAYMENT_KEY, CLIENT_USER, SUPER_USER} from "../constants";
 
 export const login = (email, password) => {
     return new Promise((resolve, reject) => {
@@ -48,6 +48,39 @@ export const getLendingsByUser = user => {
                 lending => lending.borrower.email ===  user.email
             );
             resolve(lendings);
+        });
+    });
+}
+
+export const getCurrentCapital = lending => {
+    const promise1= axios.get('/payments.json');
+    const promise2= axios.get('/unpaid-interests.json');
+    return new Promise((resolve) => {
+        Promise.all([promise1, promise2]).then(response => {
+            const arrayCapitalPayments = response[0].data.filter(
+                payment => payment.type ===  CAPITAL_PAYMENT_KEY && payment.lending.id === lending.id
+            );
+            const arrayUnpaidInterests = response[1].data.filter(
+                unpaidInterest => unpaidInterest.lending.id === lending.id
+            );
+            const capitalPayments = arrayCapitalPayments.reduce((accumulator, currentValue) => accumulator + currentValue.amount, 0);
+            const unpaidInterests = arrayUnpaidInterests.reduce((accumulator, currentValue) => accumulator + currentValue.amount, 0);
+            const currentCapital = lending.capital + unpaidInterests - capitalPayments;
+            resolve(currentCapital);
+        })
+    });
+}
+
+export const getPaymentsByLendingId = lendingId => {
+    console.log("Lending id: ", lendingId);
+    return new Promise((resolve, reject) => {
+        axios
+        .get('/payments.json').then(response => {
+            console.log("RESPONSE: ", response);
+            const payments = response.data.filter(
+                payment => payment.lending.id ===  parseInt(lendingId)
+            );
+            resolve(payments);
         });
     });
 }

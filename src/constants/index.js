@@ -10,3 +10,9 @@ export const DOCUMENTS_LABELS = {
 
 export const CLIENT_USER = "CLIENT";
 export const SUPER_USER = "SUPER";
+
+export const INTEREST_PAYMENT_KEY = 0;
+export const CAPITAL_PAYMENT_KEY = 1;
+
+export const COLOR_INTEREST_PAYMENT = "red";
+export const COLOR_CAPITAL_PAYMENT = "#ffd700";

@@ -8,6 +8,7 @@
         "warranty": "la confianza y credibilidad que tiene con el prestamista",
         "signature": null,
         "lender": {
+            "id": 1,
             "email": "junior.uc.9192@gmail.com",
             "password": "1234",
             "name": "Junior David",
@@ -20,6 +21,7 @@
             "createAt": "string"
         },
         "borrower": {
+            "id": "3",
             "email": "luissanabriacorp@gmail.com",
             "password": "1234",
             "name": "Luis Rafael",
@@ -42,6 +44,7 @@
         "warranty": "la confianza y credibilidad que tiene con el prestamista",
         "signature": null,
         "lender": {
+            "id": 1,
             "email": "junior.uc.9192@gmail.com",
             "password": "1234",
             "name": "Junior David",
@@ -54,6 +57,7 @@
             "createAt": "string"
         },
         "borrower": {
+            "id": "7",
             "email": "yorman@gmail.com",
             "password": "1234",
             "name": "Yorman José",
@@ -76,6 +80,7 @@
         "warranty": "la confianza y credibilidad que tiene con el prestamista",
         "signature": null,
         "lender": {
+            "id": 1,
             "email": "junior.uc.9192@gmail.com",
             "password": "1234",
             "name": "Junior David",
@@ -88,6 +93,7 @@
             "createAt": "string"
         },
         "borrower":{
+            "id": "4",
             "email": "vasquezgomezricardo@gmail.com",
             "password": "1234",
             "name": "Ricardo Jesus",
@@ -110,6 +116,7 @@
         "warranty": "la confianza y credibilidad que tiene con el prestamista",
         "signature": null,
         "lender": {
+            "id": 1,
             "email": "junior.uc.9192@gmail.com",
             "password": "1234",
             "name": "Junior David",
@@ -122,6 +129,7 @@
             "createAt": "string"
         },
         "borrower":{
+            "id": "4",
             "email": "vasquezgomezricardo@gmail.com",
             "password": "1234",
             "name": "Ricardo Jesus",
@@ -144,6 +152,7 @@
         "warranty": "dos meses de arriendo en el edificio Carduus Torre I (incluida la administración)",
         "signature": null,
         "lender": {
+            "id": 1,
             "email": "junior.uc.9192@gmail.com",
             "password": "1234",
             "name": "Junior David",
@@ -156,6 +165,7 @@
             "createAt": "string"
         },
         "borrower":{
+            "id": "2",
             "email": "jhonduque@gmail.com",
             "password": "1234",
             "name": "Jhon Alexander",
@@ -178,6 +188,7 @@
         "warranty": "una cadena de pandora y un reloj guess",
         "signature": null,
         "lender": {
+            "id": 1,
             "email": "junior.uc.9192@gmail.com",
             "password": "1234",
             "name": "Junior David",
@@ -190,6 +201,7 @@
             "createAt": "string"
         },
         "borrower":{
+            "id": "5",
             "email": "maritza@gmail.com",
             "password": "1234",
             "name": "Maritza",
@@ -212,6 +224,7 @@
         "warranty": "la confianza y credibilidad que tiene con el prestamista",
         "signature": null,
         "lender": {
+            "id": 1,
             "email": "junior.uc.9192@gmail.com",
             "password": "1234",
             "name": "Junior David",
@@ -224,6 +237,7 @@
             "createAt": "string"
         },
         "borrower": {
+            "id": "6",
             "email": "zulay@gmail.com",
             "password": "1234",
             "name": "Zulay",
@@ -246,6 +260,7 @@
         "warranty": "la confianza y credibilidad que tiene con el prestamista",
         "signature": null,
         "lender": {
+            "id": 1,
             "email": "junior.uc.9192@gmail.com",
             "password": "1234",
             "name": "Junior David",
@@ -258,6 +273,7 @@
             "createAt": "string"
         },
         "borrower": {
+            "id": "3",
             "email": "luissanabriacorp@gmail.com",
             "password": "1234",
             "name": "Luis Rafael",
@@ -270,5 +286,41 @@
             "createAt": "string"
         },
         "createdAt": "14-01-2021"
+    },
+    {
+        "id": 9,
+        "type": "0",
+        "capital": 200000,
+        "capitalText": "doscientos mil pesos",
+        "interestPercentage": 20,
+        "warranty": "Una laptop de color blanca",
+        "signature": null,
+        "lender": {
+            "id": 1,
+            "email": "junior.uc.9192@gmail.com",
+            "password": "1234",
+            "name": "Junior David",
+            "lastName": "Campos Giménez",
+            "doctType": "PA",
+            "docNumber": "118349712",
+            "nacionality": "venezolana",
+            "address": "Calle 71 #86a-45, Edificio Carduus, Torre I, apto 503, Bogotá Colombia",
+            "rol": "SUPER",
+            "createAt": "string"
+        },
+        "borrower": {
+            "id": "8",
+            "email": "martha",
+            "password": "1234",
+            "name": "Martha",
+            "lastName": "Peinado",
+            "doctType": "CI",
+            "docNumber": "1127665734",
+            "nacionality": "colombiana",
+            "address": "Carrera 90bis 69a89, Bogotá, Colombia",
+            "rol": "CLIENT",
+            "createAt": "string"
+        },
+        "createdAt": "13-01-2021"
     }
 ]

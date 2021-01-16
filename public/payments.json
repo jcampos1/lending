@@ -1,0 +1,58 @@
+[
+    {
+        "lending": {
+            "id": 7,
+            "type": "0",
+            "capital": 1000000,
+            "capitalText": "un millon de pesos",
+            "interestPercentage": 15,
+            "warranty": "la confianza y credibilidad que tiene con el prestamista",
+            "signature": null,
+            "lender": {
+                "id": 1,
+                "email": "junior.uc.9192@gmail.com",
+                "name": "Junior David",
+                "lastName": "Campos Giménez"
+            },
+            "borrower": {
+                "id": "6",
+                "email": "zulay@gmail.com",
+                "name": "Zulay",
+                "lastName": "Vásquez"
+            },
+            "createdAt": "18-12-2020"
+        },
+        "amount": 150000,
+        "description": "Pago de intereses",
+        "createdAt": "14-01-2021",
+        "type": 0
+    },
+    {
+        "lending": {
+            "id": 7,
+            "type": "0",
+            "capital": 1000000,
+            "capitalText": "un millon de pesos",
+            "interestPercentage": 15,
+            "warranty": "la confianza y credibilidad que tiene con el prestamista",
+            "signature": null,
+            "lender": {
+                "id": 1,
+                "email": "junior.uc.9192@gmail.com",
+                "name": "Junior David",
+                "lastName": "Campos Giménez"
+            },
+            "borrower": {
+                "id": "6",
+                "email": "zulay@gmail.com",
+                "name": "Zulay",
+                "lastName": "Vásquez"
+            },
+            "createdAt": "18-12-2020"
+        },
+        "amount": 349000,
+        "description": "Abono al capital",
+        "createdAt": "14-01-2021",
+        "type": 1
+    }
+]

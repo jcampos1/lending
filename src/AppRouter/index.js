@@ -7,6 +7,7 @@ import {
 import ContractPage from '../pages/ContractPage';
 import LendingsPage from '../pages/LendingsPage';
 import LoginPage from '../pages/LoginPage';
+import PaymentsPage from '../pages/PaymentsPage';
 import PerformancePage from '../pages/PerformancePage';
 import { isAuthenticated, isSuperuser } from '../utils';
 
@@ -28,9 +29,14 @@ const AppRouter = () => {
                             </Route>
                             {
                                 isSuperuser() && (
-                                    <Route path="/performance" exact>
-                                        <PerformancePage />
-                                    </Route>
+                                    <>
+                                        <Route path="/lendings/:lendingId/payments" exact>
+                                            <PaymentsPage />
+                                        </Route>
+                                        <Route path="/performance" exact>
+                                            <PerformancePage />
+                                        </Route>
+                                    </>
                                 )
                             }
                         </>

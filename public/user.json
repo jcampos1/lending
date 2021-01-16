@@ -1,5 +1,6 @@
 [
     {
+        "id": "1",
         "email": "junior.uc.9192@gmail.com",
         "password": "1234",
         "name": "Junior David",
@@ -12,6 +13,7 @@
         "createAt": "string"
     },
     {
+        "id": "2",
         "email": "jhonduque@gmail.com",
         "password": "1234",
         "name": "Jhon Alexander",
@@ -24,6 +26,7 @@
         "createAt": "string"
     },
     {
+        "id": "3",
         "email": "luissanabriacorp@gmail.com",
         "password": "1234",
         "name": "Luis Rafael",
@@ -36,6 +39,7 @@
         "createAt": "string"
     },
     {
+        "id": "4",
         "email": "vasquezgomezricardo@gmail.com",
         "password": "1234",
         "name": "Ricardo Jesus",
@@ -48,6 +52,7 @@
         "createAt": "string"
     },
     {
+        "id": "5",
         "email": "maritza@gmail.com",
         "password": "1234",
         "name": "Maritza",
@@ -60,6 +65,7 @@
         "createAt": "string"
     },
     {
+        "id": "6",
         "email": "zulay@gmail.com",
         "password": "1234",
         "name": "Zulay",
@@ -72,6 +78,7 @@
         "createAt": "string"
     },
     {
+        "id": "7",
         "email": "yorman@gmail.com",
         "password": "1234",
         "name": "Yorman José",
@@ -80,6 +87,19 @@
         "docNumber": "930604416011994",
         "nacionality": "venezolana",
         "address": "Cra 90 #69a-55, Barrio La Florida, Bogotá, Colombia",
+        "rol": "CLIENT",
+        "createAt": "string"
+    },
+    {
+        "id": "8",
+        "email": "martha",
+        "password": "1234",
+        "name": "Martha",
+        "lastName": "Peinado",
+        "doctType": "CI",
+        "docNumber": "1127665734",
+        "nacionality": "colombiana",
+        "address": "Carrera 90bis 69a89, Bogotá, Colombia",
         "rol": "CLIENT",
         "createAt": "string"
     }

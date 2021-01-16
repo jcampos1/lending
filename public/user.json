@@ -2,7 +2,7 @@
     {
         "id": "1",
         "email": "junior.uc.9192@gmail.com",
-        "password": "1234",
+        "password": "^h8dsG74",
         "name": "Junior David",
         "lastName": "Campos Giménez",
         "doctType": "PA",
@@ -14,8 +14,8 @@
     },
     {
         "id": "2",
-        "email": "jhonduque@gmail.com",
-        "password": "1234",
+        "email": "jhonduque",
+        "password": "jhonduque",
         "name": "Jhon Alexander",
         "lastName": "Duque",
         "doctType": "CI",
@@ -28,7 +28,7 @@
     {
         "id": "3",
         "email": "luissanabriacorp@gmail.com",
-        "password": "1234",
+        "password": "140654657",
         "name": "Luis Rafael",
         "lastName": "Larez Sanabria",
         "doctType": "PA",
@@ -41,7 +41,7 @@
     {
         "id": "4",
         "email": "vasquezgomezricardo@gmail.com",
-        "password": "1234",
+        "password": "4975069",
         "name": "Ricardo Jesus",
         "lastName": "Vásquez Gómez",
         "doctType": "PA",
@@ -54,7 +54,7 @@
     {
         "id": "5",
         "email": "maritza@gmail.com",
-        "password": "1234",
+        "password": "1101176502",
         "name": "Maritza",
         "lastName": "Rozo",
         "doctType": "CI",
@@ -66,8 +66,8 @@
     },
     {
         "id": "6",
-        "email": "zulay@gmail.com",
-        "password": "1234",
+        "email": "zulay",
+        "password": "3104324886",
         "name": "Zulay",
         "lastName": "Vásquez",
         "doctType": "CI",
@@ -79,8 +79,8 @@
     },
     {
         "id": "7",
-        "email": "yorman@gmail.com",
-        "password": "1234",
+        "email": "yorman",
+        "password": "yorman",
         "name": "Yorman José",
         "lastName": "Rondón Pérez",
         "doctType": "PEP",
@@ -93,7 +93,7 @@
     {
         "id": "8",
         "email": "martha",
-        "password": "1234",
+        "password": "1127665734",
         "name": "Martha",
         "lastName": "Peinado",
         "doctType": "CI",

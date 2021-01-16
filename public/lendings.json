@@ -23,7 +23,7 @@
         "borrower": {
             "id": "3",
             "email": "luissanabriacorp@gmail.com",
-            "password": "1234",
+            "password": "140654657",
             "name": "Luis Rafael",
             "lastName": "Larez Sanabria",
             "doctType": "PA",
@@ -58,8 +58,8 @@
         },
         "borrower": {
             "id": "7",
-            "email": "yorman@gmail.com",
-            "password": "1234",
+            "email": "yorman",
+            "password": "yorman",
             "name": "Yorman José",
             "lastName": "Rondón Pérez",
             "doctType": "PEP",
@@ -166,8 +166,8 @@
         },
         "borrower":{
             "id": "2",
-            "email": "jhonduque@gmail.com",
-            "password": "1234",
+            "email": "jhonduque",
+            "password": "jhonduque",
             "name": "Jhon Alexander",
             "lastName": "Duque",
             "doctType": "CI",
@@ -203,7 +203,7 @@
         "borrower":{
             "id": "5",
             "email": "maritza@gmail.com",
-            "password": "1234",
+            "password": "1101176502",
             "name": "Maritza",
             "lastName": "Rozo",
             "doctType": "CI",
@@ -238,8 +238,8 @@
         },
         "borrower": {
             "id": "6",
-            "email": "zulay@gmail.com",
-            "password": "1234",
+            "email": "zulay",
+            "password": "3104324886",
             "name": "Zulay",
             "lastName": "Vásquez",
             "doctType": "CI",
@@ -275,7 +275,7 @@
         "borrower": {
             "id": "3",
             "email": "luissanabriacorp@gmail.com",
-            "password": "1234",
+            "password": "140654657",
             "name": "Luis Rafael",
             "lastName": "Larez Sanabria",
             "doctType": "PA",
@@ -311,7 +311,7 @@
         "borrower": {
             "id": "8",
             "email": "martha",
-            "password": "1234",
+            "password": "1127665734",
             "name": "Martha",
             "lastName": "Peinado",
             "doctType": "CI",

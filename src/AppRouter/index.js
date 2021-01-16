@@ -24,9 +24,6 @@ const AppRouter = () => {
                             <Route path="/lendings" exact>
                                 <LendingsPage />
                             </Route>
-                            <Route path="/lendings/:lendingId" exact>
-                                <ContractPage />
-                            </Route>
                             {
                                 isSuperuser() && (
                                     <>
@@ -39,6 +36,9 @@ const AppRouter = () => {
                                     </>
                                 )
                             }
+                            <Route path="/lendings/:lendingId" exact>
+                                <ContractPage />
+                            </Route>
                         </>
                     )
                 }

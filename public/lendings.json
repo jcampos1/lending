@@ -322,5 +322,41 @@
             "createAt": "string"
         },
         "createdAt": "13-01-2021"
+    },
+    {
+        "id": 10,
+        "type": "0",
+        "capital": 400000,
+        "capitalText": "cuatrocientos mil pesos",
+        "interestPercentage": 20,
+        "warranty": "la confianza y credibilidad que tiene con el prestamista",
+        "signature": null,
+        "lender": {
+            "id": 1,
+            "email": "junior.uc.9192@gmail.com",
+            "password": "1234",
+            "name": "Junior David",
+            "lastName": "Campos Giménez",
+            "doctType": "PA",
+            "docNumber": "118349712",
+            "nacionality": "venezolana",
+            "address": "Calle 71 #86a-45, Edificio Carduus, Torre I, apto 503, Bogotá Colombia",
+            "rol": "SUPER",
+            "createAt": "string"
+        },
+        "borrower": {
+            "id": "9",
+            "email": "margerdp@gmail.com",
+            "password": "1014313283",
+            "name": "Marger Teresa",
+            "lastName": "Duran Peñuela",
+            "doctType": "CI",
+            "docNumber": "1014313283",
+            "nacionality": "colombiana",
+            "address": "calle 70 a#90-27, Barrio La Florida, Bogotá, Colombia",
+            "rol": "CLIENT",
+            "createAt": "string"
+        },
+        "createdAt": "15-01-2021"
     }
 ]

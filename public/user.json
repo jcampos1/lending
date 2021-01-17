@@ -102,5 +102,18 @@
         "address": "Carrera 90bis 69a89, Bogotá, Colombia",
         "rol": "CLIENT",
         "createAt": "string"
+    },
+    {
+        "id": "9",
+        "email": "margerdp@gmail.com",
+        "password": "1014313283",
+        "name": "Marger Teresa",
+        "lastName": "Duran Peñuela",
+        "doctType": "CI",
+        "docNumber": "1014313283",
+        "nacionality": "colombiana",
+        "address": "calle 70 a#90-27, Barrio La Florida, Bogotá, Colombia",
+        "rol": "CLIENT",
+        "createAt": "string"
     }
 ]

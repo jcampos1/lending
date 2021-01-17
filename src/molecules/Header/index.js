@@ -29,8 +29,8 @@ const Header = () => {
                     <Nav.Link href="#features" className="mx-auto"></Nav.Link>
                 </Nav>
                 <Nav>
-                    <Link className="nav-link mx-auto" to="/">Acerca de nosotros</Link>
-                    <Link className="nav-link mx-auto" to="/">Nuestros clientes</Link>
+                    {/* <Link className="nav-link mx-auto" to="/">Acerca de nosotros</Link> */}
+                    {/* <Link className="nav-link mx-auto" to="/">Nuestros clientes</Link> */}
                     {
                         localStorage.getItem("token") && (
                             <>

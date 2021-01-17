@@ -115,5 +115,18 @@
         "address": "calle 70 a#90-27, Barrio La Florida, Bogotá, Colombia",
         "rol": "CLIENT",
         "createAt": "string"
+    },
+    {
+        "id": "10",
+        "email": "karloisiv@hotmail.com",
+        "password": "17201",
+        "name": "Karloisi Yeimar",
+        "lastName": "Vásque Gómez",
+        "doctType": "CI",
+        "docNumber": "21478469",
+        "nacionality": "venezolana",
+        "address": "Calle 71 #86a-45, Edificio Carduus, Torre I, apto 503, Bogotá Colombia",
+        "rol": "SUPER",
+        "createAt": "string"
     }
 ]

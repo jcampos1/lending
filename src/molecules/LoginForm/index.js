@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
 import { login } from "../../utils";
+import {NotificationManager} from 'react-notifications';
 
 const LoginForm = () => {
     const history = useHistory();
@@ -11,7 +12,11 @@ const LoginForm = () => {
     const handleSubmit = () => {
         login(email, password)
         .then(() => window.location.href = "/lendings")
-        .catch(() => console.log("OCURRIO UN ERROR"));
+        .catch(() => NotificationManager.error(
+            'Verifique usuario y contraseña e intente nuevamente', 
+            'Error', 
+            5000
+        ));
     }
 
     return (

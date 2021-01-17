@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css/animate.min.css';
 import 'hover.css/css/hover-min.css';
+import 'react-notifications/lib/notifications.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

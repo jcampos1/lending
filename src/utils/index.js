@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {CAPITAL_PAYMENT_KEY, CLIENT_USER, SUPER_USER} from "../constants";
+import {CAPITAL_PAYMENT_KEY, CLIENT_USER, LENDING_STATUS_PENDING, SUPER_USER} from "../constants";
 
 export const login = (email, password) => {
     return new Promise((resolve, reject) => {
@@ -30,7 +30,8 @@ export const getLendings = (rol = CLIENT_USER) => {
             let lendings = response.data;
             if(rol === CLIENT_USER) {
                 lendings = response.data.filter(
-                    lending => lending.borrower.email ===  user.email
+                    lending => lending.borrower.email ===  user.email && lending.status === LENDING_STATUS_PENDING
+
                 );
                 resolve(lendings);
             } else {
@@ -45,7 +46,7 @@ export const getLendingsByUser = user => {
         axios
         .get('lendings.json').then(response => {
             const lendings = response.data.filter(
-                lending => lending.borrower.email ===  user.email
+                lending => lending.borrower.email ===  user.email && lending.status === LENDING_STATUS_PENDING
             );
             resolve(lendings);
         });

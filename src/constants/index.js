@@ -16,3 +16,6 @@ export const CAPITAL_PAYMENT_KEY = 1;
 
 export const COLOR_INTEREST_PAYMENT = "red";
 export const COLOR_CAPITAL_PAYMENT = "#ffd700";
+
+export const LENDING_STATUS_PENDING = "PENDING";
+export const LENDING_STATUS_PAID = "PAID";

@@ -31,7 +31,6 @@ export const getLendings = (rol = CLIENT_USER) => {
             if(rol === CLIENT_USER) {
                 lendings = response.data.filter(
                     lending => lending.borrower.email ===  user.email && lending.status === LENDING_STATUS_PENDING
-
                 );
                 resolve(lendings);
             } else {
@@ -73,11 +72,9 @@ export const getCurrentCapital = lending => {
 }
 
 export const getPaymentsByLendingId = lendingId => {
-    console.log("Lending id: ", lendingId);
     return new Promise((resolve, reject) => {
         axios
         .get('/payments.json').then(response => {
-            console.log("RESPONSE: ", response);
             const payments = response.data.filter(
                 payment => payment.lending.id ===  parseInt(lendingId)
             );

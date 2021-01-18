@@ -6,7 +6,7 @@
         "capitalText": "doscientos cincuenta mil pesos",
         "interestPercentage": 20,
         "warranty": "la confianza y credibilidad que tiene con el prestamista",
-        "signature": null,
+        "signature": "/images/signature-luis.png",
         "lender": {
             "id": 1,
             "email": "junior.uc.9192@gmail.com",
@@ -265,7 +265,7 @@
         "capitalText": "doscientos veinte mil pesos",
         "interestPercentage": 20,
         "warranty": "la confianza y credibilidad que tiene con el prestamista",
-        "signature": null,
+        "signature": "/images/signature-luis.png",
         "lender": {
             "id": 1,
             "email": "junior.uc.9192@gmail.com",

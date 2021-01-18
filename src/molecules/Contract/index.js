@@ -70,12 +70,23 @@ const Contract = () => {
                 <Col>
                     <div className="border px-5 text-center d-flex flex-column">
                         <b className="mb-5">Prestatario,</b> 
-                        <h6 style={{
-                            height: "40px"
-                        }}
-                        className="d-flex justify-content-center align-items-end mb-0">
-                            {borrowerFullName}
-                        </h6>
+                        {
+                            lending.signature ? (
+                                <img 
+                                    src={lending.signature} 
+                                    alt="signature" 
+                                    width="150" 
+                                    height="40"
+                                    className="mx-auto mb-0" />
+                            ) : (
+                                <h6 style={{
+                                    height: "40px"
+                                }}
+                                className="d-flex justify-content-center align-items-end mb-0">
+                                    {borrowerFullName}
+                                </h6>
+                            )
+                        }
                         <hr className="mb-0 w-100 mt-0" />
                         <span>{borrowerFullName}</span>
                         <span>{borrower.doctType}: {borrower.docNumber}</span>

@@ -112,5 +112,34 @@
         "description": "Abono al capital",
         "createdAt": "18-01-2021",
         "type": 1
+    },
+    {
+        "lending": {
+            "id": 1,
+            "type": "0",
+            "capital": 250000,
+            "capitalText": "doscientos cincuenta mil pesos",
+            "interestPercentage": 20,
+            "warranty": "la confianza y credibilidad que tiene con el prestamista",
+            "signature": "/images/signature-luis.png",
+            "lender": {
+                "id": 1,
+                "email": "junior.uc.9192@gmail.com",
+                "name": "Junior David",
+                "lastName": "Campos Giménez"
+            },
+            "borrower": {
+                "id": "3",
+                "email": "luissanabriacorp@gmail.com",
+                "name": "Luis Rafael",
+                "lastName": "Larez Sanabria"
+            },
+            "status": "PENDING",
+            "createdAt": "22-12-2020"
+        },
+        "amount": 50000,
+        "description": "Abono de intereses",
+        "createdAt": "19-01-2021",
+        "type": 0
     }
 ]

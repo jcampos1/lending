@@ -58,7 +58,7 @@ const Payments = () => {
                                 <Col xs="6" md="3">
                                     <small className="d-block font-weight-bold">Tipo de pago</small>
                                     <div>
-                                        {payment.type === CAPITAL_PAYMENT_KEY ? "Abono de intereses" : "Abono al capital"}
+                                        {payment.type === CAPITAL_PAYMENT_KEY ? "Abono al capital" : "Abono de intereses"}
                                     </div>
                                 </Col>
                             </Row>

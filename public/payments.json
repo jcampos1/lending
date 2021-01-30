@@ -141,5 +141,63 @@
         "description": "Abono de intereses",
         "createdAt": "19-01-2021",
         "type": 0
+    },
+    {
+        "lending": {
+            "id": 2,
+            "type": "0",
+            "capital": 500000,
+            "capitalText": "quinientos mil pesos",
+            "interestPercentage": 20,
+            "warranty": "la confianza y credibilidad que tiene con el prestamista",
+            "signature": null,
+            "lender": {
+                "id": 1,
+                "email": "junior.uc.9192@gmail.com",
+                "name": "Junior David",
+                "lastName": "Campos Giménez"
+            },
+            "borrower": {
+                "id": "7",
+                "email": "yorman",
+                "name": "Yorman José",
+                "lastName": "Rondón Pérez"
+            },
+            "status": "PENDING",
+            "createdAt": "30-12-2020"
+        },
+        "amount": 100000,
+        "description": "Abono de intereses",
+        "createdAt": "30-01-2021",
+        "type": 0
+    },
+    {
+        "lending": {
+            "id": 2,
+            "type": "0",
+            "capital": 500000,
+            "capitalText": "quinientos mil pesos",
+            "interestPercentage": 20,
+            "warranty": "la confianza y credibilidad que tiene con el prestamista",
+            "signature": null,
+            "lender": {
+                "id": 1,
+                "email": "junior.uc.9192@gmail.com",
+                "name": "Junior David",
+                "lastName": "Campos Giménez"
+            },
+            "borrower": {
+                "id": "7",
+                "email": "yorman",
+                "name": "Yorman José",
+                "lastName": "Rondón Pérez"
+            },
+            "status": "PENDING",
+            "createdAt": "30-12-2020"
+        },
+        "amount": 200000,
+        "description": "Abono al capital",
+        "createdAt": "30-01-2021",
+        "type": 1
     }
 ]

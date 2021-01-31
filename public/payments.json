@@ -115,6 +115,35 @@
     },
     {
         "lending": {
+            "id": 5,
+            "type": "0",
+            "capital": 1234000,
+            "capitalText": "un millon doscientos treinta y cuatro mil pesos",
+            "interestPercentage": 20,
+            "warranty": "dos meses de arriendo en el edificio Carduus Torre I (incluida la administración)",
+            "signature": null,
+            "lender": {
+                "id": 1,
+                "email": "junior.uc.9192@gmail.com",
+                "name": "Junior David",
+                "lastName": "Campos Giménez"
+            },
+            "borrower":{
+                "id": "2",
+                "email": "jhonduque",
+                "name": "Jhon Alexander",
+                "lastName": "Duque"
+            },
+            "status": "PENDING",
+            "createdAt": "29-12-2020"
+        },
+        "amount": 150000,
+        "description": "Abono al capital",
+        "createdAt": "31-01-2021",
+        "type": 1
+    },
+    {
+        "lending": {
             "id": 1,
             "type": "0",
             "capital": 250000,

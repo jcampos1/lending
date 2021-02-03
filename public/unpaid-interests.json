@@ -1,1 +1,44 @@
-[]
+[
+    {
+        "lending": {
+            "id": 4,
+            "type": "0",
+            "capital": 300000,
+            "capitalText": "trescientos mil pesos",
+            "interestPercentage": 15,
+            "warranty": "la confianza y credibilidad que tiene con el prestamista",
+            "signature": null,
+            "lender": {
+                "id": 1,
+                "email": "junior.uc.9192@gmail.com",
+                "password": "1234",
+                "name": "Junior David",
+                "lastName": "Campos Giménez",
+                "doctType": "PA",
+                "docNumber": "118349712",
+                "nacionality": "venezolana",
+                "address": "Calle 71 #86a-45, Edificio Carduus, Torre I, apto 503, Bogotá Colombia",
+                "rol": "SUPER",
+                "createAt": "string"
+            },
+            "borrower":{
+                "id": "4",
+                "email": "vasquezgomezricardo@gmail.com",
+                "password": "1234",
+                "name": "Ricardo Jesus",
+                "lastName": "Vásquez Gómez",
+                "doctType": "PA",
+                "docNumber": "130295992",
+                "nacionality": "venezolana",
+                "address": "Cra 102 #154-30 torre 6 apto 1305 Conjunto Arboleda del Pinar, Bogotá, Colombia",
+                "rol": "CLIENT",
+                "createAt": "string"
+            },
+            "status": "PENDING",
+            "createdAt": "30-12-2020"
+        },
+        "amount": 45000,
+        "description": "No cancelo los intereses a tiempo",
+        "createdAt": "02-02-2021"
+    }
+]

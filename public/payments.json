@@ -228,5 +228,34 @@
         "description": "Abono al capital",
         "createdAt": "30-01-2021",
         "type": 1
+    },
+    {
+        "lending": {
+            "id": 6,
+            "type": "0",
+            "capital": 350000,
+            "capitalText": "trescientos cincuenta mil pesos",
+            "interestPercentage": 20,
+            "warranty": "una cadena de pandora y un reloj guess",
+            "signature": null,
+            "lender": {
+                "id": 1,
+                "email": "junior.uc.9192@gmail.com",
+                "name": "Junior David",
+                "lastName": "Campos Giménez"
+            },
+            "borrower":{
+                "id": "5",
+                "email": "maritza_d13@hotmail.con",
+                "name": "Maritza",
+                "lastName": "Rozo"
+            },
+            "status": "PENDING",
+            "createdAt": "31-07-2020"
+        },
+        "amount": 70000,
+        "description": "Abono de intereses",
+        "createdAt": "01-02-2021",
+        "type": 0
     }
 ]

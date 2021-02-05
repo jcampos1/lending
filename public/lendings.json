@@ -33,7 +33,7 @@
             "rol": "CLIENT",
             "createAt": "string"
         },
-        "status": "PENDING",
+        "status": "PAID",
         "createdAt": "22-12-2020"
     }, 
     {
@@ -292,7 +292,7 @@
             "rol": "CLIENT",
             "createAt": "string"
         },
-        "status": "PENDING",
+        "status": "PAID",
         "createdAt": "14-01-2021"
     },
     {
@@ -403,7 +403,7 @@
             "rol": "CLIENT",
             "createAt": "string"
         },
-        "status": "PENDING",
+        "status": "PAID",
         "createdAt": "20-01-2021"
     },
     {
@@ -440,7 +440,7 @@
             "rol": "CLIENT",
             "createAt": "string"
         },
-        "status": "PENDING",
+        "status": "PAID",
         "createdAt": "26-01-2021"
     },
     {

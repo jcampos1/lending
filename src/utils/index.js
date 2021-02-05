@@ -34,6 +34,9 @@ export const getLendings = (rol = CLIENT_USER) => {
                 );
                 resolve(lendings);
             } else {
+                lendings = response.data.filter(
+                    lending => lending.status === LENDING_STATUS_PENDING
+                );
                 resolve(lendings);
             }
         });

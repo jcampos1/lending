@@ -128,5 +128,18 @@
         "address": "Calle 71 #86a-45, Edificio Carduus, Torre I, apto 503, Bogotá Colombia",
         "rol": "SUPER",
         "createAt": "string"
+    },
+    {
+        "id": "11",
+        "email": "aa.am22@outlook.com",
+        "password": "889878",
+        "name": "Aaron Alberto",
+        "lastName": "Alvarez Mosqueda",
+        "doctType": "CI",
+        "docNumber": "29618134",
+        "nacionality": "venezolana",
+        "address": "Torres del Porvenir, cll 54C Sur #100-24 torre 26 apto 301, Bogotá Colombia",
+        "rol": "CLIENT",
+        "createAt": "string"
     }
 ]

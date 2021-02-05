@@ -442,5 +442,42 @@
         },
         "status": "PENDING",
         "createdAt": "26-01-2021"
+    },
+    {
+        "id": 13,
+        "type": "0",
+        "capital": 300000,
+        "capitalText": "trescientos mil pesos",
+        "interestPercentage": 20,
+        "warranty": "una laptop asus y un router tenda f6",
+        "signature": null,
+        "lender": {
+            "id": 1,
+            "email": "junior.uc.9192@gmail.com",
+            "password": "1234",
+            "name": "Junior David",
+            "lastName": "Campos Giménez",
+            "doctType": "PA",
+            "docNumber": "118349712",
+            "nacionality": "venezolana",
+            "address": "Calle 71 #86a-45, Edificio Carduus, Torre I, apto 503, Bogotá Colombia",
+            "rol": "SUPER",
+            "createAt": "string"
+        },
+        "borrower": {
+            "id": "11",
+            "email": "aa.am22@outlook.com",
+            "password": "889878",
+            "name": "Aaron Alberto",
+            "lastName": "Alvarez Mosqueda",
+            "doctType": "CI",
+            "docNumber": "29618134",
+            "nacionality": "venezolana",
+            "address": "Torres del Porvenir, cll 54C Sur #100-24 torre 26 apto 301, Bogotá Colombia",
+            "rol": "CLIENT",
+            "createAt": "string"
+        },
+        "status": "PENDING",
+        "createdAt": "05-02-2021"
     }
 ]

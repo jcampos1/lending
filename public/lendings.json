@@ -516,5 +516,42 @@
         },
         "status": "PENDING",
         "createdAt": "10-02-2021"
+    },
+    {
+        "id": 15,
+        "type": "0",
+        "capital": 1300000,
+        "capitalText": "un millon trescientos mil pesos",
+        "interestPercentage": 20,
+        "warranty": "dos meses de arriendo en el edificio Carduus Torre I (incluida la administración)",
+        "signature": null,
+        "lender": {
+            "id": 1,
+            "email": "junior.uc.9192@gmail.com",
+            "password": "1234",
+            "name": "Junior David",
+            "lastName": "Campos Giménez",
+            "doctType": "PA",
+            "docNumber": "118349712",
+            "nacionality": "venezolana",
+            "address": "Calle 71 #86a-45, Edificio Carduus, Torre I, apto 503, Bogotá Colombia",
+            "rol": "SUPER",
+            "createAt": "string"
+        },
+        "borrower":{
+            "id": "2",
+            "email": "jhonduque",
+            "password": "jhonduque",
+            "name": "Jhon Alexander",
+            "lastName": "Duque",
+            "doctType": "CI",
+            "docNumber": "1152189981",
+            "nacionality": "colombiana",
+            "address": "Calle 71 #86a-45, Edificio Carduus, Torre I, apto 504, Bogotá Colombia",
+            "rol": "CLIENT",
+            "createAt": "string"
+        },
+        "status": "PENDING",
+        "createdAt": "13-02-2021"
     }
 ]

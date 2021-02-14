@@ -553,5 +553,42 @@
         },
         "status": "PENDING",
         "createdAt": "13-02-2021"
+    },
+    {
+        "id": 16,
+        "type": "0",
+        "capital": 150000,
+        "capitalText": "ciento cincuenta mil pesos",
+        "interestPercentage": 20,
+        "warranty": "la confianza y credibilidad que tiene con el prestamista",
+        "signature": "/images/signature-luis.png",
+        "lender": {
+            "id": 1,
+            "email": "junior.uc.9192@gmail.com",
+            "password": "1234",
+            "name": "Junior David",
+            "lastName": "Campos Giménez",
+            "doctType": "PA",
+            "docNumber": "118349712",
+            "nacionality": "venezolana",
+            "address": "Calle 71 #86a-45, Edificio Carduus, Torre I, apto 503, Bogotá Colombia",
+            "rol": "SUPER",
+            "createAt": "string"
+        },
+        "borrower": {
+            "id": "3",
+            "email": "luissanabriacorp@gmail.com",
+            "password": "140654657",
+            "name": "Luis Rafael",
+            "lastName": "Larez Sanabria",
+            "doctType": "PA",
+            "docNumber": "140654657",
+            "nacionality": "venezolana",
+            "address": "Cra 102 #154-30 torre 6 apto 1305 Conjunto Arboleda del Pinar, Bogotá, Colombia",
+            "rol": "CLIENT",
+            "createAt": "string"
+        },
+        "status": "PENDING",
+        "createdAt": "13-02-2021"
     }
 ]

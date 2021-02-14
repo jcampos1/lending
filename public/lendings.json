@@ -329,7 +329,7 @@
             "rol": "CLIENT",
             "createAt": "string"
         },
-        "status": "PENDING",
+        "status": "PAID",
         "createdAt": "13-01-2021"
     },
     {
